@@ -1,9 +1,11 @@
 from typing import Optional
 
+
 class Node:
-    def __init__(self, data: int, next=None):
+    def __init__(self, data: int, next_node=None):
         self._data = data
-        self._next = next
+        self._next = next_node
+
 
 class LinkedStack:
     def __init__(self):
